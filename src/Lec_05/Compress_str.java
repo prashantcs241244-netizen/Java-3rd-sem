@@ -10,6 +10,7 @@ public class Compress_str {
                 count++;
             } else {
                 result.append(str.charAt(i-1)).append(count);
+
                 count=1;
 
             }
@@ -18,6 +19,7 @@ public class Compress_str {
         System.out.println(result);
     }
 }
+
 
 
 
